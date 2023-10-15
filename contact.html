@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #6c7ae0;
+            color: white;
+            margin: 0px;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            background-color: #8f9ee5;
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        nav ul li a:hover {
+            background-color: #6c7ae0;
+            color: white;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            background-color: #6c7ae0;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #5a6bd1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="6"></textarea>
+            <button type="submit">Send Message</button>
+        </form> 
+       
+    </main>
+      <!-- Section containing contact information -->
+      <section id="contact" style="background-color:#1c73ee; padding: 20px; margin: 20px; border: 1px solid #ddd;">
+        <h2 style="margin-top: 20px; font-size: 1.5rem;">Contact Information</h2>
+        <p style="margin: 10px 0;">Email: waligran4932@gmail.com</p>
+        
+        <!-- Displayed in two columns: Address and Cell number -->
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 10px 0;">
+            <div style="flex-basis: 50%;">
+                <p style="font-weight: bold; margin: 0;">Address:</p>
+                <p style="margin: 0;">Peshawar, Pakistan</p>
+            </div>
+            <div style="flex-basis: 50%;">
+                <p style="font-weight: bold; margin: 0;">talk to me between 7am to 6 am:</p>   
+                <p style="margin: 0;">03130459978</p>
+            </div>
+        </div>
+        
+        <!-- Social media link -->
+        <p style="margin: 10px 0;">Social Media: <a href="https://www.linkedin.com/in/wali-akbar-khan-5340aa25b/" style="text-decoration: none; color: #080707;">LinkedIn</a></p>
+    </section>
+
+    <!-- Page footer with copyright information -->
+    <footer style="text-align: center; background-color: #363335; color: #c20e1d; padding: 10px;">
+        &copy; 2023 Contact Page. All rights reserved.
+    </footer>
+    </main>
+</body>
+</html>
